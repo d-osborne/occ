@@ -24,7 +24,8 @@ Subexpressions may be enclosed with balanced pairs of `Kewmap` and `Qmipmap`, wh
 
 The base executable unit in `occ` is a statement. Every statement is terminated with the keyword `Alice`. An expression alone, along with the `Alice` terminator, is itself a statement, pushing the value of the expression to `occ`'s stack. The keywords for unary and binary operators also act as statements when specified alone with `Alice`, performing the corresponding action upon values in the stack instead.
 
-```MichaelGoldsmith Alice
+```
+MichaelGoldsmith Alice
 MichaelMichaelGoldsmithsmith Alice
 NYANCAT!!!! Alice
 MichaelMichaelGoldsmithsmith Alice
@@ -47,7 +48,8 @@ Control flow is determined by the **Rnavigation system**. The `Rnav` keyword is 
 
 To implement conditional jumps, the `Heraphael` keyword is used as a prefix for `Tescalator`. This pops the top value from the stack. If the value is not equal to `0`, the jump takes place. Otherwise, the jump is skipped. `Heraphael` may also be used without `Tescalator` to skip the next statement if the top value on the stack is `0`.
 
-```Rnav MichaelGoldsmith Alice
+```
+Rnav MichaelGoldsmith Alice
 ...
 MichaelGoldsmith Alice
 Isn'traphael MichaelGoldsmith Alice
